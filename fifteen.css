@@ -1,0 +1,45 @@
+/*CSCI 366
+Lab9: Fifteen Puzzle
+CSS file for puzzle style*/
+head{
+text-align: center;
+font-family: "cursive";
+font-size: 14pt;
+}
+
+body {
+text-align: center;
+font-family: cursive;
+font-size: 14pt;
+}
+/*setup for puzzle area of 400x400*/
+#puzzlearea {
+width:400px;
+margin-left: auto;
+margin-right: auto;
+position:relative;
+height: 400px;
+}
+/*Individual squares*/
+.puzzlesquare {
+background-image: url(background.png);
+font-size: 40pt;
+border: 5px solid black;
+width: 90px;
+height: 90px;
+text-align:center;
+vertical-align: middle;
+position:absolute;
+}
+/*class applied to individual sqares when moveable on the page*/
+.moveable:hover {
+border-color: red;
+color: red;
+}
+
+#controls {
+width:400px;
+margin-left: auto;
+margin-right: auto;
+
+}
